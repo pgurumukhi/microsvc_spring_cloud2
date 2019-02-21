@@ -1,0 +1,18 @@
+eureka
+cd C:\pankaj\GIT\microsvc_spring_cloud2\service-registration-discovery
+mvn clean install
+java -jar C:\pankaj\GIT\microsvc_spring_cloud2\service-registration-discovery\target\service-registration-discovery-1.0-SNAPSHOT.jar
+http://localhost:8761/
+
+configserver
+cd C:\pankaj\GIT\microsvc_spring_cloud2\configserver
+mvn clean package
+java -jar C:\pankaj\GIT\microsvc_spring_cloud2\configserver\target\config-server-1.0-SNAPSHOT.jar
+http://localhost:8001/lucky-word/default
+
+configclient
+cd C:\pankaj\GIT\microsvc_spring_cloud2\configclient
+mvn clean package
+java -jar C:\pankaj\GIT\microsvc_spring_cloud2\configclient\target\config-client-0.0.1-SNAPSHOT.jar
+http://localhost:8002/message
+

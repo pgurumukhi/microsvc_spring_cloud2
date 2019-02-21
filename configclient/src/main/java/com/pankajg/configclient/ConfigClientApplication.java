@@ -24,6 +24,6 @@ class MessageRestController {
     }
 
     @Value("${message:Hello default}")
-    private String message;
+        private String message;
 
 }
