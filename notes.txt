@@ -14,5 +14,10 @@ configclient
 cd C:\pankaj\GIT\microsvc_spring_cloud2\configclient
 mvn clean package
 java -jar C:\pankaj\GIT\microsvc_spring_cloud2\configclient\target\config-client-0.0.1-SNAPSHOT.jar
+http://localhost:8002/lucky-word
 http://localhost:8002/message
 
+adjective
+cd C:\pankaj\GIT\microsvc_spring_cloud2\adjective
+mvn clean package
+java -jar C:\pankaj\GIT\microsvc_spring_cloud2\adjective\target\adjective-0.0.1-SNAPSHOT.jar
