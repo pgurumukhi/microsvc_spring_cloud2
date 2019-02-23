@@ -21,3 +21,9 @@ adjective
 cd C:\pankaj\GIT\microsvc_spring_cloud2\adjective
 mvn clean package
 java -jar C:\pankaj\GIT\microsvc_spring_cloud2\adjective\target\adjective-0.0.1-SNAPSHOT.jar
+
+subject
+cd C:\pankaj\GIT\microsvc_spring_cloud2\subject
+mvn clean package
+java -jar C:\pankaj\GIT\microsvc_spring_cloud2\subject\target\subject-0.0.1-SNAPSHOT.jar
+
